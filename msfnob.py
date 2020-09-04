@@ -116,12 +116,16 @@ def menu():
           raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
           bersih()
     elif pil == "4":
-        print $HOME
+        print "\033[32;1mUpdate installing...."
+        time.sleep(2)
         os.system("rm -fr Hackfb")
         os.system("git clone https://github.com/Seven-Gaming/msfnob")
         time.sleep(1)
         os.system("cd msfnob")
         os system("python2 msfnob.py")
+        print "\033[32;1mUpdate selesai....."
+        time.sleep(2)
+        menu()
     elif pil == "0":
         os.system("exit")
         print
