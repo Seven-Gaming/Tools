@@ -117,7 +117,7 @@ def menu():
           bersih()
     elif pil == "4":
         print "\033[32;1mUpdate installing...."
-        time.sleep(2)
+        time.sleep(1)
         os.system("rm -fr Hackfb")
         os.system("git clone https://github.com/Seven-Gaming/msfnob")
         time.sleep(1)
