@@ -12,12 +12,6 @@ cyan= '\033[36m'
 bold= '\033[1m'
 end= '\033[0m'
 
-def flush(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(random.random() * 0.01)
-
 def bersih():
     os.system("clear")
 
