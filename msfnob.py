@@ -123,7 +123,6 @@ def menu():
         time.sleep(1)
         os.system("cd msfnob")
         os.system("python2 msfnob.py")
-        menu()
     elif pil == "0":
         os.system("exit")
         print
