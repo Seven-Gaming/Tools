@@ -116,8 +116,12 @@ def menu():
           raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
           bersih()
     elif pil == "4":
-        os.system("rm -fr Hackfb"
-        os.system("
+        print $HOME
+        os.system("rm -fr Hackfb")
+        os.system("git clone https://github.com/Seven-Gaming/msfnob")
+        time.sleep(1)
+        os.system("cd msfnob")
+        os system("python2 msfnob.py")
     elif pil == "0":
         os.system("exit")
         print
