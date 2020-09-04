@@ -122,7 +122,7 @@ def menu():
         os.system("git clone https://github.com/Seven-Gaming/msfnob")
         time.sleep(1)
         os.system("cd msfnob")
-        os system("python2 msfnob.py")
+        os.system("python2 msfnob.py")
         print "\033[32;1mUpdate selesai....."
         time.sleep(2)
         menu()
